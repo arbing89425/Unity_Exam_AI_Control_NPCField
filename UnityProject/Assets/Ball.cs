@@ -3,9 +3,18 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class Ball : MonoBehaviour {
+    /// <summary>
+    /// 給他一個浮點數名Speed
+    /// 註解"移動"
+    /// 控制速度
+    /// </summary>
     [Header("移動")]
     [Range(0, 5)] public float Speed;
-
+    /// <summary>
+    /// 給他一個浮點數名Speed
+    /// 註解"跳躍"
+    /// 控制跳的高度
+    /// </summary>
     [Header("跳躍")]
     [Range(0, 100)] public float JumpForce;
 
