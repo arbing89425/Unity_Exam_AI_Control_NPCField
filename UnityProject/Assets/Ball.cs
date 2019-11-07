@@ -28,6 +28,9 @@ public class Ball : MonoBehaviour {
     }
 	
 	// Update is called once per frame
+    /// <summary>
+    /// 按下按鍵後執行的事
+    /// </summary>
 	void Update () {
         if (Input.GetKey(KeyCode.W))
         {
@@ -53,7 +56,9 @@ public class Ball : MonoBehaviour {
             }
         }
     }
-
+    /// <summary>
+    /// 解釋Jump功能
+    /// </summary>
     public void Jump()
     {
         rgbdy.AddForce(Vector3.up * JumpForce);
